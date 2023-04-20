@@ -1,0 +1,25 @@
+
+.list-container {
+    background-color: rgb(255, 255, 255);
+    margin: 4px;
+    padding: 4px;
+    border-radius: 4px;
+    width: 300px;
+    height: 48.5vh;
+    overflow-y: scroll;
+    color:black;
+    text-align: center;
+
+}
+.list-container ul {
+    padding-inline-start: 0;
+    
+}
+.list-container::-webkit-scrollbar {
+    display: none;
+}
+.list-container::-webkit-scrollbar-thumb {
+    width: 3px;
+    background: orange;
+    border-radius: 5px;
+}

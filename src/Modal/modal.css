@@ -1,0 +1,12 @@
+.modal-background {
+    background-image: linear-gradient(to bottom, #00000767, #3b3b3e8e, #77777980, #b9b9ba90, #ffffff);
+    position: fixed;
+    inset-block-end: -10px;
+    inset-block-start: -10px;
+    inset-inline-end: -10px;
+    inset-inline-start: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}

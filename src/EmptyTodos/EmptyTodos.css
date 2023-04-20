@@ -1,0 +1,27 @@
+.arrow-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.arrow {
+    margin-top: 20px;
+    font-weight: bold;
+    border: 1px solid rgb(136, 133, 133);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:black;
+    animation: down 1s ease-in-out infinite ;
+}
+@keyframes down {
+    0%{
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: .2;
+        transform: translateY(200px);
+    }
+}

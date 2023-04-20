@@ -1,0 +1,29 @@
+.box{
+    width: 100%;
+    height: 100%;
+    padding: 10px 28px; 
+
+}
+.mini-box {
+    height: 40px;
+    width: 100%;
+    background-color: rgba(85, 85, 81, 0.498);
+    margin-bottom: 12px;
+    border-radius: 12px;
+    animation-name: disappear;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes disappear {
+    0% {
+       opacity: .2;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: .1;
+    }
+    
+}

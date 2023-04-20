@@ -1,0 +1,45 @@
+form {
+    background-color: aliceblue;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(213, 99, 33);
+    border-radius: 20px;
+}
+label {
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+textarea {
+    width: 90%;
+    border: 3px solid orange;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 12px 12px 0 12px;
+}
+textarea:focus {
+    outline: 3px solid orange;
+}
+.btn-form {
+    width: 90px;
+    height: 45px;
+    border: none;
+    color: white;
+    margin: 4px;
+    font-weight: bold;
+}
+.btn-form:nth-child(1) {
+    background-color: red;
+
+}
+.btn-form:nth-child(2) {
+    background-color: rgb(6, 209, 70);
+    
+}
+.btn-hidden {
+    visibility: hidden;
+    background-color: rgb(158, 245, 186);
+}
