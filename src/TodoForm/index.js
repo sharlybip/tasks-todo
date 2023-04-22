@@ -29,6 +29,7 @@ const TodoForm = () => {
         <form onSubmit={onSubmit}>
         <label>Write below your new task To Do</label>
             <textarea
+            autoFocus
             value={newToDoValue}
             onChange={onChange}
             placeholder="New ToDo"/>
