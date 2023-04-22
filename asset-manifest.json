@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sharlybip/tasks-todo/static/css/main.c5a8ac31.css",
+    "main.js": "/sharlybip/tasks-todo/static/js/main.deb4c8f7.js",
+    "index.html": "/sharlybip/tasks-todo/index.html",
+    "main.c5a8ac31.css.map": "/sharlybip/tasks-todo/static/css/main.c5a8ac31.css.map",
+    "main.deb4c8f7.js.map": "/sharlybip/tasks-todo/static/js/main.deb4c8f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5a8ac31.css",
+    "static/js/main.deb4c8f7.js"
+  ]
+}
