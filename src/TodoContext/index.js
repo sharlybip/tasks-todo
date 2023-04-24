@@ -48,9 +48,11 @@ const TodoProvider = (props) => {
     } 
     const deleteTodo = text => {
     const todoIndex = todos.findIndex(todo => todo.text === text);
-    const newTodos = [...todos]
+    const newTodos = [...todos];
     newTodos.splice(todoIndex, 1);
-    saveTodos(newTodos)
+    saveTodos(newTodos);
+
+    
     }
     return (
         <TodoContext.Provider value={{

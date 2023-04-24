@@ -7,6 +7,6 @@
     inset-inline-start: -10px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    padding-top: 20%;
     color: white;
 }

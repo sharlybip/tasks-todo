@@ -27,25 +27,25 @@ const TodoForm = () => {
     }
     return (
         <form onSubmit={onSubmit}>
-        <label>Write below your new task To Do</label>
+        <label>Ingresa una nueva tarea</label>
             <textarea
             autoFocus
             value={newToDoValue}
             onChange={onChange}
-            placeholder="New ToDo"/>
+            placeholder="Nueva tarea"/>
             <div>
                 <button
                     type="button"
                     onClick={onCancel}
                     className="btn-form"
                 >
-                    Cancel
+                    Cancelar
                 </button>
                 <button
                     className={`btn-form ${(newToDoValue === 'Ingresa un texto') && 'btn-hidden'}`}
                     type="submit"
                 >
-                    Add
+                    Agregar
                 </button>
             </div>
         </form>
